@@ -1,0 +1,42 @@
+
+@RegressionTesting
+Scenario: Check Contact Us  Link under Gieco Menu Bar           # src/test/java/features/giecoMenuBar.feature:84
+  Given I am in Gieco Home Page                                 # stepDefinitions.GiecoStepDefinitions.i_am_in_gieco_home_page()
+  And I click on Menu Button                                    # stepDefinitions.GiecoStepDefinitions.i_click_on_menu_button()
+  And I click On Information  Panel                             # stepDefinitions.GiecoStepDefinitions.i_click_on_information_panel()
+  And I scroll down until visible                               # stepDefinitions.GiecoStepDefinitions.i_scroll_down_until_visible()
+  And I chose Contact Us Panel                                  # stepDefinitions.GiecoStepDefinitions.i_chose_contact_us_panel()
+  Then I should see What do you need help with today? displayed # stepDefinitions.GiecoStepDefinitions.i_should_see_what_do_you_need_help_with_today_displayed()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h3[@id='radioquestion' and text()='What do you need help with today?']"}
+  (Session info: chrome=91.0.4472.124)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-B9VIKM80', ip: '192.168.1.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\alita\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61348}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 368f477e59371ee308b075d6517b53a1
+*** Element info: {Using=xpath, value=//h3[@id='radioquestion' and text()='What do you need help with today?']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.getText(Unknown Source)
+	at homePage.GiecoHomePage.verifyContactUsText(GiecoHomePage.java:74)
+	at stepDefinitions.GiecoStepDefinitions.i_should_see_what_do_you_need_help_with_today_displayed(GiecoStepDefinitions.java:264)
+	at ✽.I should see What do you need help with today? displayed(file:///C:/Users/alita/eclipse-workspace/BDD_AutomationFrameWork_BootCamp/Gieco/src/test/java/features/giecoMenuBar.feature:89)
+
+
+    Embedding demo1 [image/png 340819 bytes]
+

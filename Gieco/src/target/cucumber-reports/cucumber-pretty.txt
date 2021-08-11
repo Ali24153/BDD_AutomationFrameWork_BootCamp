@@ -1,0 +1,86 @@
+
+Scenario: Data Tables Example              # src/test/java/features/DataTableEX.features:6
+  Given I am on Amazon HomePage            # stepDefinitions.HomePageStepDefinitions.i_am_on_amazon_home_page()
+  And I click on Account & Lists           # stepDefinitions.DataTableExampleStepDefinition.i_click_on_account_lists()
+      java.lang.NullPointerException
+	at stepDefinitions.DataTableExampleStepDefinition.i_click_on_account_lists(DataTableExampleStepDefinition.java:23)
+	at ✽.I click on Account & Lists(file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/DataTableEX.features:7)
+
+
+    Embedding demo1 [image/png 917264 bytes]
+
+  Then i click on SignIn Button            # stepDefinitions.DataTableExampleStepDefinition.i_click_on_sign_in_button()
+  And I enter Email or mobile phone number # stepDefinitions.DataTableExampleStepDefinition.i_enter_email_or_mobile_phone_number(io.cucumber.datatable.DataTable)
+  And I click on continue Button           # stepDefinitions.DataTableExampleStepDefinition.i_click_on_continue_button()
+  And I Enter the PassWord                 # stepDefinitions.DataTableExampleStepDefinition.i_enter_the_pass_word(io.cucumber.datatable.DataTable)
+  Then I click on Sign-In                  # stepDefinitions.DataTableExampleStepDefinition.i_click_on_sign_in()
+  Then I Should see Hello,demo1            # stepDefinitions.DataTableExampleStepDefinition.i_should_see_hello_demo1()
+
+Scenario: Amazon sign Up with single column      # src/test/java/features/DataTableEX.features:21
+  Given I am on Amazon HomePage                  # stepDefinitions.HomePageStepDefinitions.i_am_on_amazon_home_page()
+  And I click on Account & Lists                 # stepDefinitions.DataTableExampleStepDefinition.i_click_on_account_lists()
+      java.lang.NullPointerException
+	at stepDefinitions.DataTableExampleStepDefinition.i_click_on_account_lists(DataTableExampleStepDefinition.java:23)
+	at ✽.I click on Account & Lists(file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/DataTableEX.features:22)
+
+
+    Embedding demo1 [image/png 1071497 bytes]
+
+  Then I click on Start Here                     # null
+  And I enter user information from table        # stepDefinitions.DataTableExampleStepDefinition.i_enter_user_information_from_table(io.cucumber.datatable.DataTable)
+  Then I click on create your Amazon Account     # stepDefinitions.DataTableExampleStepDefinition.i_click_on_create_your_amazon_account()
+  And Verify Amazon Account created Successfully # stepDefinitions.DataTableExampleStepDefinition.verify_amazon_account_created_successfully()
+
+Scenario: Amazon sign Up using multiple column                         # src/test/java/features/DataTableEX.features:35
+  Given I am on Amazon HomePage                                        # stepDefinitions.HomePageStepDefinitions.i_am_on_amazon_home_page()
+  And I click on Account & Lists using multiple column                 # stepDefinitions.DataTableExampleStepDefinition.i_click_on_account_lists_using_multiple_column()
+  Then i click on Start Here Link                                      # stepDefinitions.DataTableExampleStepDefinition.i_click_on_start_here_link()
+  And i enter user information                                         # stepDefinitions.DataTableExampleStepDefinition.i_enter_user_informationList(java.util.List<java.util.List<java.lang.String>>)
+  Then I click on create your Amazon Account using multiple column     # stepDefinitions.DataTableExampleStepDefinition.i_click_on_create_your_amazon_account_using_multiple_column()
+  And Verify Amazon Account created Successfully using multiple column # stepDefinitions.DataTableExampleStepDefinition.verify_amazon_account_created_successfully_using_multiple_column()
+  And i enter user information using multiple column                   # stepDefinitions.DataTableExampleStepDefinition.i_enter_user_information_using_multiple_column(io.cucumber.datatable.DataTable)
+
+@integrationTesting
+Scenario Outline: Amazon SearchBox  Functionalities Check with valid Item3 # src/test/java/features/HomePage.features:38
+  Given I am on Amazon HomePage                                            # stepDefinitions.HomePageStepDefinitions.i_am_on_amazon_home_page()
+  And I enter "Cell Phones" in the search box                              # stepDefinitions.HomePageStepDefinitions.i_enter_in_the_search_box(java.lang.String)
+  When I click on search button                                            # stepDefinitions.HomePageStepDefinitions.i_click_on_search_button()
+  Then I should see "Cell Phones" properly appear                          # stepDefinitions.HomePageStepDefinitions.i_should_see_cell_phones_properly_appear(java.lang.String)
+  But I should not see "mobile" are appeared                               # stepDefinitions.HomePageStepDefinitions.i_should_not_see_shoes_are_appeared(java.lang.String)
+  And I verify "Amazon.com : Cell Phones" in product title                 # stepDefinitions.HomePageStepDefinitions.i_verify_cell_phones_in_product_title(java.lang.String)
+
+@integrationTesting
+Scenario Outline: Amazon SearchBox  Functionalities Check with valid Item3 # src/test/java/features/HomePage.features:39
+  Given I am on Amazon HomePage                                            # stepDefinitions.HomePageStepDefinitions.i_am_on_amazon_home_page()
+  And I enter "iphone 12" in the search box                                # stepDefinitions.HomePageStepDefinitions.i_enter_in_the_search_box(java.lang.String)
+  When I click on search button                                            # stepDefinitions.HomePageStepDefinitions.i_click_on_search_button()
+  Then I should see "iphone 12" properly appear                            # stepDefinitions.HomePageStepDefinitions.i_should_see_cell_phones_properly_appear(java.lang.String)
+  But I should not see "iphone 11" are appeared                            # stepDefinitions.HomePageStepDefinitions.i_should_not_see_shoes_are_appeared(java.lang.String)
+  And I verify "Amazon.com : iphone 12" in product title                   # stepDefinitions.HomePageStepDefinitions.i_verify_cell_phones_in_product_title(java.lang.String)
+
+@integrationTesting
+Scenario Outline: Amazon SearchBox  Functionalities Check with valid Item3 # src/test/java/features/HomePage.features:40
+  Given I am on Amazon HomePage                                            # stepDefinitions.HomePageStepDefinitions.i_am_on_amazon_home_page()
+  And I enter "iphone 11" in the search box                                # stepDefinitions.HomePageStepDefinitions.i_enter_in_the_search_box(java.lang.String)
+  When I click on search button                                            # stepDefinitions.HomePageStepDefinitions.i_click_on_search_button()
+  Then I should see "iphone 11" properly appear                            # stepDefinitions.HomePageStepDefinitions.i_should_see_cell_phones_properly_appear(java.lang.String)
+  But I should not see "iphone 12" are appeared                            # stepDefinitions.HomePageStepDefinitions.i_should_not_see_shoes_are_appeared(java.lang.String)
+  And I verify "Amazon.com : iphone 11" in product title                   # stepDefinitions.HomePageStepDefinitions.i_verify_cell_phones_in_product_title(java.lang.String)
+
+@smokeTesting
+Scenario: Amazon SearchBox  Functionalities Check with valid Item # src/test/java/features/HomePage_BackGound.features:9
+  Given I am on Amazon HomePage                                   # stepDefinitions.HomePageStepDefinitions.i_am_on_amazon_home_page()
+  And I enter "Cell Phones" in the search box                     # stepDefinitions.HomePageStepDefinitions.i_enter_in_the_search_box(java.lang.String)
+  When I click on search button                                   # stepDefinitions.HomePageStepDefinitions.i_click_on_search_button()
+  Then I should see "Cell Phones" properly appear                 # stepDefinitions.HomePageStepDefinitions.i_should_see_cell_phones_properly_appear(java.lang.String)
+  But I should not see "Shoes" are appeared                       # stepDefinitions.HomePageStepDefinitions.i_should_not_see_shoes_are_appeared(java.lang.String)
+  And I verify "Amazon.com : Cell Phones" in product title        # stepDefinitions.HomePageStepDefinitions.i_verify_cell_phones_in_product_title(java.lang.String)
+
+@test
+Scenario: Amazon SearchBox  Functionalities Check with valid Item # src/test/java/features/HomePage_BackGound.features:26
+  Given I am on Amazon HomePage                                   # stepDefinitions.HomePageStepDefinitions.i_am_on_amazon_home_page()
+  And I enter "iphone 12" in the search box                       # stepDefinitions.HomePageStepDefinitions.i_enter_in_the_search_box(java.lang.String)
+  When I click on search button                                   # stepDefinitions.HomePageStepDefinitions.i_click_on_search_button()
+  Then I should see "iphone 12" properly appear                   # stepDefinitions.HomePageStepDefinitions.i_should_see_cell_phones_properly_appear(java.lang.String)
+  But I should not see "iphone 11" are appeared                   # stepDefinitions.HomePageStepDefinitions.i_should_not_see_shoes_are_appeared(java.lang.String)
+  And I verify "Amazon.com : iphone 12" in product title          # stepDefinitions.HomePageStepDefinitions.i_verify_cell_phones_in_product_title(java.lang.String)

@@ -1,0 +1,407 @@
+[
+  {
+    "source": "I am on Amazon HomePage",
+    "steps": [
+      {
+        "name": "I am on Amazon HomePage",
+        "aggregatedDurations": {
+          "median": 3.812512,
+          "average": 3.913517637
+        },
+        "durations": [
+          {
+            "duration": 4.27827,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/DataTableEX.feature:4"
+          },
+          {
+            "duration": 3.7857517,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/DataTableEX.feature:4"
+          },
+          {
+            "duration": 4.2034373,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/DataTableEX.feature:4"
+          },
+          {
+            "duration": 3.7958108,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage.feature:30"
+          },
+          {
+            "duration": 3.8211993,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage.feature:30"
+          },
+          {
+            "duration": 3.6176376,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage.feature:30"
+          },
+          {
+            "duration": 4.0022097,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage_BackGound.feature:5"
+          },
+          {
+            "duration": 3.8038247,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage_BackGound.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Account \u0026 Lists using multiple column",
+    "steps": [
+      {
+        "name": "I click on Account \u0026 Lists using multiple column",
+        "aggregatedDurations": {
+          "median": 0.0010002,
+          "average": 0.0010002
+        },
+        "durations": [
+          {
+            "duration": 0.0010002,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/DataTableEX.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i click on Start Here Link",
+    "steps": [
+      {
+        "name": "i click on Start Here Link",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/DataTableEX.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i enter user information",
+    "steps": [
+      {
+        "name": "i enter user information",
+        "aggregatedDurations": {
+          "median": 0.0010032,
+          "average": 0.0010032
+        },
+        "durations": [
+          {
+            "duration": 0.0010032,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/DataTableEX.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on create your Amazon Account using multiple column",
+    "steps": [
+      {
+        "name": "I click on create your Amazon Account using multiple column",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/DataTableEX.feature:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Verify Amazon Account created Successfully using multiple column",
+    "steps": [
+      {
+        "name": "Verify Amazon Account created Successfully using multiple column",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/DataTableEX.feature:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i enter user information using multiple column",
+    "steps": [
+      {
+        "name": "i enter user information using multiple column",
+        "aggregatedDurations": {
+          "median": 0.0011028,
+          "average": 0.0011028
+        },
+        "durations": [
+          {
+            "duration": 0.0011028,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/DataTableEX.feature:49"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} in the search box",
+    "steps": [
+      {
+        "name": "I enter \"Cell Phones\" in the search box",
+        "aggregatedDurations": {
+          "median": 0.32421575,
+          "average": 0.32421575
+        },
+        "durations": [
+          {
+            "duration": 0.3872799,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage.feature:31"
+          },
+          {
+            "duration": 0.2611516,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage_BackGound.feature:11"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"iphone 12\" in the search box",
+        "aggregatedDurations": {
+          "median": 0.2263161,
+          "average": 0.2263161
+        },
+        "durations": [
+          {
+            "duration": 0.2070891,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage.feature:31"
+          },
+          {
+            "duration": 0.2455431,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage_BackGound.feature:28"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"iphone 11\" in the search box",
+        "aggregatedDurations": {
+          "median": 0.2096082,
+          "average": 0.2096082
+        },
+        "durations": [
+          {
+            "duration": 0.2096082,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on search button",
+    "steps": [
+      {
+        "name": "I click on search button",
+        "aggregatedDurations": {
+          "median": 2.0099298,
+          "average": 1.95657624
+        },
+        "durations": [
+          {
+            "duration": 2.564782,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage.feature:32"
+          },
+          {
+            "duration": 1.6406433,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage.feature:32"
+          },
+          {
+            "duration": 2.0099298,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage.feature:32"
+          },
+          {
+            "duration": 2.0892123,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage_BackGound.feature:12"
+          },
+          {
+            "duration": 1.4783138,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage_BackGound.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see {string} properly appear",
+    "steps": [
+      {
+        "name": "I should see \"Cell Phones\" properly appear",
+        "aggregatedDurations": {
+          "median": 0.04796955,
+          "average": 0.04796955
+        },
+        "durations": [
+          {
+            "duration": 0.0504567,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage.feature:33"
+          },
+          {
+            "duration": 0.0454824,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage_BackGound.feature:13"
+          }
+        ]
+      },
+      {
+        "name": "I should see \"iphone 12\" properly appear",
+        "aggregatedDurations": {
+          "median": 0.0349723,
+          "average": 0.0349723
+        },
+        "durations": [
+          {
+            "duration": 0.0334848,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage.feature:33"
+          },
+          {
+            "duration": 0.0364598,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage_BackGound.feature:30"
+          }
+        ]
+      },
+      {
+        "name": "I should see \"iphone 11\" properly appear",
+        "aggregatedDurations": {
+          "median": 0.0431983,
+          "average": 0.0431983
+        },
+        "durations": [
+          {
+            "duration": 0.0431983,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should not see {string} are appeared",
+    "steps": [
+      {
+        "name": "I should not see \"mobile\" are appeared",
+        "aggregatedDurations": {
+          "median": 0.0269522,
+          "average": 0.0269522
+        },
+        "durations": [
+          {
+            "duration": 0.0269522,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage.feature:34"
+          }
+        ]
+      },
+      {
+        "name": "I should not see \"iphone 11\" are appeared",
+        "aggregatedDurations": {
+          "median": 0.0217267,
+          "average": 0.0217267
+        },
+        "durations": [
+          {
+            "duration": 0.0234791,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage.feature:34"
+          },
+          {
+            "duration": 0.0199743,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage_BackGound.feature:31"
+          }
+        ]
+      },
+      {
+        "name": "I should not see \"iphone 12\" are appeared",
+        "aggregatedDurations": {
+          "median": 0.0231022,
+          "average": 0.0231022
+        },
+        "durations": [
+          {
+            "duration": 0.0231022,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage.feature:34"
+          }
+        ]
+      },
+      {
+        "name": "I should not see \"Shoes\" are appeared",
+        "aggregatedDurations": {
+          "median": 0.0298907,
+          "average": 0.0298907
+        },
+        "durations": [
+          {
+            "duration": 0.0298907,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage_BackGound.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} in product title",
+    "steps": [
+      {
+        "name": "I verify \"Amazon.com : Cell Phones\" in product title",
+        "aggregatedDurations": {
+          "median": 0.0045302,
+          "average": 0.0045302
+        },
+        "durations": [
+          {
+            "duration": 0.0049828,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage.feature:35"
+          },
+          {
+            "duration": 0.0040776,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage_BackGound.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "I verify \"Amazon.com : iphone 12\" in product title",
+        "aggregatedDurations": {
+          "median": 0.00367245,
+          "average": 0.00367245
+        },
+        "durations": [
+          {
+            "duration": 0.0039922,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage.feature:35"
+          },
+          {
+            "duration": 0.0033527,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage_BackGound.feature:32"
+          }
+        ]
+      },
+      {
+        "name": "I verify \"Amazon.com : iphone 11\" in product title",
+        "aggregatedDurations": {
+          "median": 0.0039923,
+          "average": 0.0039923
+        },
+        "durations": [
+          {
+            "duration": 0.0039923,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/HomePage.feature:35"
+          }
+        ]
+      }
+    ]
+  }
+]

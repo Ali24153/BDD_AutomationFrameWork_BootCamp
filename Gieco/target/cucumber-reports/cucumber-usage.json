@@ -1,0 +1,92 @@
+[
+  {
+    "source": "I am in Gieco Home Page",
+    "steps": [
+      {
+        "name": "I am in Gieco Home Page",
+        "aggregatedDurations": {
+          "median": 4.6499901,
+          "average": 4.6499901
+        },
+        "durations": [
+          {
+            "duration": 4.6499901,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDD_AutomationFrameWork_BootCamp/Gieco/src/test/java/features/giecoMenuBar.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Menu Button",
+    "steps": [
+      {
+        "name": "I click on Menu Button",
+        "aggregatedDurations": {
+          "median": 0.0912876,
+          "average": 0.0912876
+        },
+        "durations": [
+          {
+            "duration": 0.0912876,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDD_AutomationFrameWork_BootCamp/Gieco/src/test/java/features/giecoMenuBar.feature:85"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click On Information  Panel",
+    "steps": [
+      {
+        "name": "I click On Information  Panel",
+        "aggregatedDurations": {
+          "median": 0.2741254,
+          "average": 0.2741254
+        },
+        "durations": [
+          {
+            "duration": 0.2741254,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDD_AutomationFrameWork_BootCamp/Gieco/src/test/java/features/giecoMenuBar.feature:86"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I scroll down until visible",
+    "steps": [
+      {
+        "name": "I scroll down until visible",
+        "aggregatedDurations": {
+          "median": 0.04143,
+          "average": 0.04143
+        },
+        "durations": [
+          {
+            "duration": 0.04143,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDD_AutomationFrameWork_BootCamp/Gieco/src/test/java/features/giecoMenuBar.feature:87"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I chose Contact Us Panel",
+    "steps": [
+      {
+        "name": "I chose Contact Us Panel",
+        "aggregatedDurations": {
+          "median": 0.0795022,
+          "average": 0.0795022
+        },
+        "durations": [
+          {
+            "duration": 0.0795022,
+            "location": "file:///C:/Users/alita/eclipse-workspace/BDD_AutomationFrameWork_BootCamp/Gieco/src/test/java/features/giecoMenuBar.feature:88"
+          }
+        ]
+      }
+    ]
+  }
+]

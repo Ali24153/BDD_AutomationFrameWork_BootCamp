@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="49.945">
+    <testcase classname="Learn Data Tables" name="Data Tables Example" time="5.749">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given I am on Amazon HomePage...............................................passed
+And I click on Account & Lists..............................................failed
+Then i click on SignIn Button...............................................skipped
+And I enter Email or mobile phone number....................................skipped
+And I click on continue Button..............................................skipped
+And I Enter the PassWord....................................................skipped
+Then I click on Sign-In.....................................................skipped
+Then I Should see Hello,demo1...............................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinitions.DataTableExampleStepDefinition.i_click_on_account_lists(DataTableExampleStepDefinition.java:23)
+	at ✽.I click on Account & Lists(file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/DataTableEX.features:7)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Learn Data Tables" name="Amazon sign Up with single column" time="5.077">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given I am on Amazon HomePage...............................................passed
+And I click on Account & Lists..............................................failed
+Then I click on Start Here..................................................skipped
+And I enter user information from table.....................................skipped
+Then I click on create your Amazon Account..................................skipped
+And Verify Amazon Account created Successfully..............................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinitions.DataTableExampleStepDefinition.i_click_on_account_lists(DataTableExampleStepDefinition.java:23)
+	at ✽.I click on Account & Lists(file:///C:/Users/alita/eclipse-workspace/BDDWebAutomationFrameWork_Selenium/Amazon/src/test/java/features/DataTableEX.features:22)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Learn Data Tables" name="Amazon sign Up using multiple column" time="4.903">
+        <system-out>
+            <![CDATA[Given I am on Amazon HomePage...............................................passed
+And I click on Account & Lists using multiple column........................passed
+Then i click on Start Here Link.............................................passed
+And i enter user information................................................passed
+Then I click on create your Amazon Account using multiple column............passed
+And Verify Amazon Account created Successfully using multiple column........passed
+And i enter user information using multiple column..........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="SearchBox Functionalities Check" name="Amazon SearchBox  Functionalities Check with valid Item3" time="7.553">
+        <system-out>
+            <![CDATA[Given I am on Amazon HomePage...............................................passed
+And I enter "Cell Phones" in the search box.................................passed
+When I click on search button...............................................passed
+Then I should see "Cell Phones" properly appear.............................passed
+But I should not see "mobile" are appeared..................................passed
+And I verify "Amazon.com : Cell Phones" in product title....................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="SearchBox Functionalities Check" name="Amazon SearchBox  Functionalities Check with valid Item3 2" time="6.409">
+        <system-out>
+            <![CDATA[Given I am on Amazon HomePage...............................................passed
+And I enter "iphone 12" in the search box...................................passed
+When I click on search button...............................................passed
+Then I should see "iphone 12" properly appear...............................passed
+But I should not see "iphone 11" are appeared...............................passed
+And I verify "Amazon.com : iphone 12" in product title......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="SearchBox Functionalities Check" name="Amazon SearchBox  Functionalities Check with valid Item3 3" time="6.593">
+        <system-out>
+            <![CDATA[Given I am on Amazon HomePage...............................................passed
+And I enter "iphone 11" in the search box...................................passed
+When I click on search button...............................................passed
+Then I should see "iphone 11" properly appear...............................passed
+But I should not see "iphone 12" are appeared...............................passed
+And I verify "Amazon.com : iphone 11" in product title......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon HomePage Header" name="Amazon SearchBox  Functionalities Check with valid Item" time="7.121">
+        <system-out>
+            <![CDATA[Given I am on Amazon HomePage...............................................passed
+And I enter "Cell Phones" in the search box.................................passed
+When I click on search button...............................................passed
+Then I should see "Cell Phones" properly appear.............................passed
+But I should not see "Shoes" are appeared...................................passed
+And I verify "Amazon.com : Cell Phones" in product title....................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon HomePage Header" name="Amazon SearchBox  Functionalities Check with valid Item 2" time="6.285">
+        <system-out>
+            <![CDATA[Given I am on Amazon HomePage...............................................passed
+And I enter "iphone 12" in the search box...................................passed
+When I click on search button...............................................passed
+Then I should see "iphone 12" properly appear...............................passed
+But I should not see "iphone 11" are appeared...............................passed
+And I verify "Amazon.com : iphone 12" in product title......................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
